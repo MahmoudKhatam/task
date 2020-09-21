@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        <ImageView
+            android:id="@+id/image1_id"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="4dp"
+            android:layout_alignParentRight="true"
+            android:padding="3dp"/>
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="العنوان"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/image1_id"/>
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/sa3a"
+            android:padding="3dp"
+            android:layout_toLeftOf="@+id/image1_id"
+            android:layout_below="@+id/text1"/>
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="monz sa3a"
+            android:layout_toLeftOf="@+id/image2"
+            android:layout_below="@+id/text1"/>
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/twoperson"
+            android:padding="3dp"
+            android:layout_toLeftOf="@+id/text2"
+            android:layout_below="@+id/text1"/>
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="regal"
+            android:layout_toLeftOf="@+id/image3"
+            android:layout_below="@+id/text1"/>
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/pro"
+            android:padding="3dp"
+            android:layout_toLeftOf="@+id/text3"
+            android:layout_below="@+id/text1"/>
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/image4"
+            android:layout_below="@+id/text1"/>
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/kf"
+            android:padding="3dp"
+            android:layout_toLeftOf="@+id/text4"
+            android:layout_below="@+id/text1"/>
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/image5"
+            android:layout_below="@+id/text1"/>
+
+
+
+
+        
+        
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
